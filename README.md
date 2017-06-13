@@ -1,7 +1,7 @@
 # Avatar
 Generate random user Avatars for apps.
 
-![](https://github.com/wvabrinskas/Avatar/blob/master/public/out.gif)
+![](https://github.com/wvabrinskas/Avatar/blob/master/public/Avatar.gif)
 
 # Installation
 * Simply install using Cocoapods, add `'pod Avatar'` to your podfile
