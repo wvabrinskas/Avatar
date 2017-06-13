@@ -48,8 +48,13 @@ class Avatar {
         let totalColumns = width / pixelSize
         let totalRows = height / pixelSize
         
-        let wRemainder = width.dividedReportingOverflow(by: pixelSize).partialValue
-        let hRemainder = height.dividedReportingOverflow(by: pixelSize).partialValue
+        let wRemainder = width % pixelSize
+        let hRemainder = height % pixelSize
+        
+        //        if #available(iOS 11, *) {
+        //            let wRemainder = width.dividedReportingOverflow(by: pixelSize).partialValue
+        //            let hRemainder = height.dividedReportingOverflow(by: pixelSize).partialValue
+        //        }
         
         let mapValues = getImageMap(length: totalColumns * totalRows)
         
@@ -78,7 +83,7 @@ class Avatar {
             
             context.setFillColor(color.cgColor)
             context.fill(CGRect(x: CGFloat(x * pixelSize), y:CGFloat(y * pixelSize), width:CGFloat(pixelSize + (pixelSize * wRemainder)), height:CGFloat(pixelSize + (pixelSize * hRemainder))));
-
+            
             x = x + 1
             
             if x == totalColumns {
@@ -97,6 +102,7 @@ class Avatar {
     }
     
 }
+
 
 
 
