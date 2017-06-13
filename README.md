@@ -1,6 +1,8 @@
 # Avatar
 Generate random user Avatars for apps.
 
+Works for iOS 10+
+
 ![](https://github.com/wvabrinskas/Avatar/blob/master/public/Avatar.gif)
 
 # Installation
