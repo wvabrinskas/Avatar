@@ -1,5 +1,5 @@
 
-<img style="float: left; width: 100px;" src="./public/avatar.png">
+<img width="100" src="./public/avatar.png">
 
 # Avatar
 
