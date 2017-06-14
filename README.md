@@ -1,5 +1,6 @@
 
 <img style="float: left; width: 100px;" src="./public/avatar.png">
+
 # Avatar
 
 Generate random user Avatars for apps.
