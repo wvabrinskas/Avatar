@@ -1,4 +1,7 @@
-# ![](./public/avatar.png =100x100) Avatar
+
+<img style="float: left; width: 100px;" src="./public/avatar.png">
+# Avatar
+
 Generate random user Avatars for apps.
 
 Works for iOS 10+
