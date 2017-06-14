@@ -1,4 +1,4 @@
-# Avatar
+# ![](./public/avatar.png =100x100) Avatar
 Generate random user Avatars for apps.
 
 Works for iOS 10+
