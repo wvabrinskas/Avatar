@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Avatar"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Randomly generated user Avatar images"
 
   # This description is used to generate tags and improve search results.

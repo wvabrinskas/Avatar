@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50017B3C1F448F6D00058FF6 /* Avatar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50017B3B1F448F6D00058FF6 /* Avatar.swift */; };
+		50017B401F44A20500058FF6 /* AvatarSeed.swift in Headers */ = {isa = PBXBuildFile; fileRef = 50017B3F1F44A20500058FF6 /* AvatarSeed.swift */; };
 		503987971EF085630032142F /* Avatar.h in Headers */ = {isa = PBXBuildFile; fileRef = 503987951EF085630032142F /* Avatar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5039879E1EF0857D0032142F /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5039879D1EF0857D0032142F /* Avatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50017B3B1F448F6D00058FF6 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		50017B3F1F44A20500058FF6 /* AvatarSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSeed.swift; sourceTree = "<group>"; };
 		503987921EF085630032142F /* Avatar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Avatar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		503987951EF085630032142F /* Avatar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
 		503987961EF085630032142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5039879D1EF0857D0032142F /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Avatar.swift; path = ../../../Documents/xcode/Avatar/Avatar/Avatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,8 @@
 			children = (
 				503987951EF085630032142F /* Avatar.h */,
 				503987961EF085630032142F /* Info.plist */,
-				5039879D1EF0857D0032142F /* Avatar.swift */,
+				50017B3B1F448F6D00058FF6 /* Avatar.swift */,
+				50017B3F1F44A20500058FF6 /* AvatarSeed.swift */,
 			);
 			path = Avatar;
 			sourceTree = "<group>";
@@ -62,7 +65,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50017B3C1F448F6D00058FF6 /* Avatar.swift in Headers */,
 				503987971EF085630032142F /* Avatar.h in Headers */,
+				50017B401F44A20500058FF6 /* AvatarSeed.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5039879E1EF0857D0032142F /* Avatar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
