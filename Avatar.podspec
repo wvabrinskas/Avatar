@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Avatar"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Randomly generated user Avatar images"
 
   # This description is used to generate tags and improve search results.
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   s.author             = { "Wiliam Vabrinskas" => "wvabrinskas@gmail.com" }
   # Or just: s.author    = "Wiliam Vabrinskas"
   # s.authors            = { "Wiliam Vabrinskas" => "wvabrinskas@gmail.com" }
-  s.social_media_url   = "https://twitter.com/william_vab"
+  s.social_media_url   = "https://twitter.com/wvabrinskas"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
